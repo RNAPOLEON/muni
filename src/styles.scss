@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+    caret-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    text-shadow: 0px 0px 1px white;
+}
+
+body{
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 6px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+    background: black ; /* Fondo transparente para el track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Color negro para el thumb */
+    border-radius: 10px; /* Esquinas redondeadas para el thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white; /* Color más claro cuando se pasa el cursor sobre el thumb */
+}
+
+#menu.scrolled{
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+body{
+    height: 200vh;
+}
